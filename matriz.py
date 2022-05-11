@@ -1,15 +1,7 @@
-a = [1, 2]
-b = [[1, 2], [2, 4]]
-c = [[1, 2], [2, 4], [2, 4]]
-d = [[[3, 4], [6, 5]]]
-e = [[[1, 2, 3]], [[5, 6, 7], [5, 4, 3]], [[3, 5, 6], [4, 8, 3], [2, 3]]]
-f = [[[1, 2, 3], [2, 3, 4]], [[5, 6, 7], [5, 4, 3]], [[3, 5, 6], [4, 8, 3]]]
-
-
 class Matrix:
 
-    def __init__(self, arreglo):
-        self.matriz = arreglo
+    def __init__(self, lista):
+        self.matriz = lista
 
     def get_matriz(self):
         return self.matriz
@@ -66,28 +58,7 @@ class Matrix:
 
 
 
-n= []
-o = Matrix(f)
-n=o.balanced()
-print(n)
 
 
-'''o = Matrix(a)
-print('profundidad ' + str(o.dimension()))
-print('suma ' + str(o.compute()))
-o = Matrix(b)
-print('profundidad ' + str(o.dimension()))
-print('suma ' + str(o.compute()))
-o = Matrix(c)
-print('profundidad ' + str(o.dimension()))
-print('suma ' + str(o.compute()))
-o = Matrix(d)
-print('profundidad ' + str(o.dimension()))
-print('suma ' + str(o.compute()))
-o = Matrix(e)
-print('profundidad ' + str(o.dimension()))
-print('suma ' + str(o.compute()))
-o = Matrix(f)
-print('profundidad ' + str(o.dimension()))
-print('suma ' + str(o.compute()))
-'''
+
+
